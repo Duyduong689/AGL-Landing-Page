@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="index.js"></script>
+    <link rel="icon" type="image/x-icon"
+        href="https://firebasestorage.googleapis.com/v0/b/agltest.appspot.com/o/%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%2023066.png?alt=media&token=3241af09-6ffb-4ed2-ac9a-8667b2f124b7">
+    <title>AGL</title>
+</head>
+
+<body>
+    <div class="menu" id="menu">
+        <div class="logo">
+            <img src="https://firebasestorage.googleapis.com/v0/b/agltest.appspot.com/o/%E3%82%A2%E3%83%BC%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%207.png?alt=media&token=c3210329-003c-4685-a1f2-474c29947bd7"
+                alt="logo" width="163px" height="54px">
+            <div class="emphasize">
+                <span>
+                    <a href="#">サポートサイト</a>
+                </span>
+            </div>
+            <i class="fa fa-times" aria-hidden="true" id="closeMenuButton"></i>
+        </div>
+        <a href="#">
+            <div class="navItem">
+                <span>
+                    検査結果画面の解説
+                </span>
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </div>
+        </a>
+        <a href="#">
+            <div class="navItem">
+                <span>
+                    主な機能
+                </span>
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </div>
+        </a>
+        <a href="#">
+            <div class="navItem">
+                <span>
+                    利用シーン別ガイド
+                </span>
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </div>
+        </a>
+        <a href="#">
+            <div class="navItem">
+                <span>
+                    初めてご利用の方へ
+                </span>
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </div>
+        </a>
+        <a href="#">
+            <div class="navItem">
+                <span>
+                    FAQ
+                </span>
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </div>
+        </a>
+    </div>
+    <div class="container">
+        <div class="leftNav">
+            <div class="logo">
+                <img src="https://firebasestorage.googleapis.com/v0/b/agltest.appspot.com/o/%E3%82%A2%E3%83%BC%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%207.png?alt=media&token=c3210329-003c-4685-a1f2-474c29947bd7"
+                    alt="logo" width="163px" height="54px">
+                <div class="emphasize">
+                    <span>
+                        <a href="#">サポートサイト</a>
+                    </span>
+                </div>
+            </div>
+            <a href="#">
+                <div class="navItem">
+                    <span>
+                        検査結果画面の解説
+                    </span>
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </div>
+            </a>
+            <a href="#">
+                <div class="navItem">
+                    <span>
+                        主な機能
+                    </span>
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </div>
+            </a>
+            <a href="#">
+                <div class="navItem">
+                    <span>
+                        利用シーン別ガイド
+                    </span>
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </div>
+            </a>
+            <a href="#">
+                <div class="navItem">
+                    <span>
+                        初めてご利用の方へ
+                    </span>
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </div>
+            </a>
+            <a href="#">
+                <div class="navItem">
+                    <span>
+                        FAQ
+                    </span>
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </div>
+            </a>
+        </div>
+        <div class="main-content">
+            <div class="header">
+                <div class="nav-group">
+                    <div class="bread">
+                        <a href="#">
+                            <i class="fa-solid fa-house"></i>
+                        </a>
+                        <a href="#">
+                            <span>トップ</span>
+                        </a>
+                    </div>
+                    <div class="nav">
+                        <div class="envelope">
+                            <a href="#">
+                                <span>ログイン</span>
+                            </a>
+                            <a href="#">
+                                <i class="fas fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                        <div class="mail">
+                            <a href="#">
+                                <span>お問い合わせ
+                                </span>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-regular fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="search">
+                    <div class="text">どんな事でお困りですか？
+                    </div>
+                    <div class="menuBurger" id="openMenuButton">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </div>
+                    <div class="medium" contenteditable="true">
+                        <div class="placeHolder">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <span>キーワードを入力
+                            </span>
+                        </div>
+                    </div>
+                    <div class="light">
+                        <a href="#">
+                            <span>
+                                検索
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="title_guide">
+                <img src="https://firebasestorage.googleapis.com/v0/b/agltest.appspot.com/o/%E3%82%A2%E3%83%BC%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%2038%20(1).png?alt=media&token=553e54c0-5d6f-402c-b888-e46a28c904d2"
+                    width="189px" height="148px" alt="title_guide">
+                <div class="guide">
+                    <span class="title">
+                        利用シーン別ガイド
+                    </span>
+                    <span class="desc">
+                        SALES SCOREを様々なシーンでご活用いただく方法をご紹介します。
+                    </span>
+                </div>
+            </div>
+            <div class="content_guide">
+                <div class="record1">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/agltest.appspot.com/o/icon.png?alt=media&token=a6920e8a-892a-4424-bd0d-a013fa9be1d8"
+                        alt="icon1" width="41px" height="27px">
+                    <span>
+                        受検者の営業活動の特徴を 見える化したい
+                    </span>
+                </div>
+                <div class="record1"> <img
+                        src="https://firebasestorage.googleapis.com/v0/b/agltest.appspot.com/o/icon2.png?alt=media&token=a4cbb19f-f435-45ee-9c90-eea8d27bcec7"
+                        alt="icon1" width="21px" height="25px">
+                    <span>
+                        ポテンシャルの高い人材を 採用したい
+                    </span>
+                </div>
+                <div class="record1"> <img
+                        src="https://firebasestorage.googleapis.com/v0/b/agltest.appspot.com/o/icon3.png?alt=media&token=74c4d4e2-2d29-48b0-9e8e-caf2c30791c1"
+                        alt="icon1" width="36px" height="42px">
+                    <span>
+                        離職率を改善したい
+                    </span>
+                </div>
+                <div class="record2">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/agltest.appspot.com/o/icon4.png?alt=media&token=dc932730-dd27-4ba7-85c3-dde7fdc723ad"
+                        alt="icon1" width="29px" height="29px">
+                    <span>
+                        成績優秀層を分析したい
+                    </span>
+                </div>
+                <div class="record3"> <img
+                        src="https://firebasestorage.googleapis.com/v0/b/agltest.appspot.com/o/icon5.png?alt=media&token=bcdec434-bf43-407f-bd17-494e0e454f29"
+                        alt="icon1" width="29px" height="36px">
+                    <span>
+                        自社の特徴を理解したい
+                    </span>
+                </div>
+                <div class="record4"> <img
+                        src="https://firebasestorage.googleapis.com/v0/b/agltest.appspot.com/o/icon6.png?alt=media&token=bb4d5c0c-9803-4322-8f8e-9e1ee94baef3"
+                        alt="icon1" width="41px" height="31px">
+                    <span>
+                        社員のコミュニケーションを 改善したい
+                    </span>
+                </div>
+            </div>
+            <div class="title_output title_guide">
+                <img src="https://firebasestorage.googleapis.com/v0/b/agltest.appspot.com/o/%E3%82%A2%E3%83%BC%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%208.png?alt=media&token=b0184d8f-1325-4080-85b7-262cbbe0e9ea"
+                    width="122px" height="137px" alt="title_output">
+                <div class="guide">
+                    <span class="title">
+                        利用シーン別ガイド
+                    </span>
+                    <span class="desc">
+                        SALES SCOREを様々なシーンでご活用いただく方法をご紹介します。
+                    </span>
+                </div>
+            </div>
+            <div class="content_output_icon">
+                <div class="subTitle">
+                    <div class="title">適性検査のアウトプット
+                    </div>
+                </div>
+                <div class="button_4col">
+                    <div class="record1">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/agltest.appspot.com/o/%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%2047503.png?alt=media&token=c8cc035e-d2db-4b1a-a3a5-b6747dea52f5"
+                            width="135px" height="61px" alt="">
+                        <span>データサマリー</span>
+                    </div>
+                    <div class="record2">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/agltest.appspot.com/o/%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%2047547.png?alt=media&token=e69c67f6-b750-4375-9439-065af62f6711"
+                            width="112px" height="42px" alt="">
+                        <span>データ詳細</span>
+                    </div>
+                    <div class="record3">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/agltest.appspot.com/o/%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%2047550.png?alt=media&token=62a9c5dc-6d28-488c-b4bc-6612a065e115"
+                            width="107px" height="56px" alt="">
+                        <span>データ比較</span>
+                    </div>
+                </div>
+                <div class="subTitle marginTop50">
+                    <div class="title">企業傾向分析
+                    </div>
+                </div>
+                <div class="button_4col marginTop18">
+                    <div class="record4">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/agltest.appspot.com/o/%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%2047553.png?alt=media&token=b476d7f6-aa4c-4264-b702-f0d5e23fdaad"
+                            width="107px" height="56px" alt="">
+                        <span>全体比較</span>
+                    </div>
+                    <div class="record5">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/agltest.appspot.com/o/%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%2047556.png?alt=media&token=617cf4a4-e46a-4e24-a788-a9964436ea89"
+                            width="108px" height="57px" alt="">
+                        <span>営業タイプ傾向</span>
+                    </div>
+                    <div class="record6">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/agltest.appspot.com/o/%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%2047557.png?alt=media&token=c296bb44-6bb6-4a7a-bfc4-f0e00228ebbe"
+                            width="107px" height="56px" alt="">
+                        <span>High-Low分析</span>
+                    </div>
+                    <div class="record7">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/agltest.appspot.com/o/%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%2047558.png?alt=media&token=747aa1f8-72a5-4b4a-9577-8d9d4533e64d"
+                            width="104px" height="44px" alt="">
+                        <span>構成比比較</span>
+                    </div>
+                </div>
+                <div class="subTitle marginTop50">
+                    <div class="title">企業傾向分析
+                    </div>
+                </div>
+                <div class="button_4col">
+                    <div class="record8">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/agltest.appspot.com/o/%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%2047565.png?alt=media&token=c803a4b0-0835-475e-85d7-6dee5dd90860"
+                            width="134px" height="52px" alt="">
+                        <span>表示される予測値</span>
+                    </div>
+                    <div class="record9">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/agltest.appspot.com/o/%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%2047563.png?alt=media&token=8eafbd16-ee02-451b-afe1-8958f47b5982"
+                            width="108px" height="57px" alt="">
+                        <span>表示される営業タイプ</span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="title_function title_guide">
+                <img src="https://firebasestorage.googleapis.com/v0/b/agltest.appspot.com/o/%E3%82%A2%E3%83%BC%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%2039.png?alt=media&token=d7e3134a-96e2-4d2b-af29-6a158d61b595"
+                    width="125px" height="117px" alt="title_function">
+                <div class="guide">
+                    <span class="title">
+                        主な機能
+                    </span>
+                    <span class="desc">
+                        SALES SCOREの利用方法及び、ツールに表示される項目について紹介します。
+                    </span>
+                </div>
+            </div>
+            <div class="content_function">
+                <div class="content">
+                    <div class="subTitle paddingTop30">
+                        <div class="title">管理者
+                        </div>
+                    </div>
+                    <ul class="ul1">
+                        <li>管理者の登録</li>
+                        <li>編集</li>
+                    </ul>
+                    <ul class="ul2">
+                        <li>表示される管理者情報</li>
+                    </ul>
+                </div>
+                <div class="content">
+                    <div class="subTitle paddingTop30">
+                        <div class="title">従業員
+                        </div>
+                    </div>
+                    <ul class="ul1">
+                        <li>従業員の登録</li>
+                        <li>編集</li>
+                    </ul>
+                    <ul class="ul2">
+                        <li>表示される従業員情報</li>
+                    </ul>
+                </div>
+                <div class="content">
+                    <div class="subTitle paddingTop30">
+                        <div class="title">応募者
+                        </div>
+                    </div>
+                    <ul class="ul1">
+                        <li>応募者の登録</li>
+                        <li>編集</li>
+                    </ul>
+                    <ul class="ul2">
+                        <li>表示される応募者情報</li>
+                    </ul>
+                </div>
+                <div class="content">
+                    <div class="subTitle paddingTop30">
+                        <div class="title">実績データの登録
+                        </div>
+                    </div>
+                    <ul class="ul1">
+                        <li>実績の登録</li>
+                        <li>編集</li>
+                    </ul>
+                    <ul class="ul2">
+                        <li>分析対象範囲の指定</li>
+                        <li>成績区分の指定</li>
+                    </ul>
+                </div>
+                <div class="content">
+                    <div class="subTitle paddingTop30">
+                        <div class="title">適性検査
+                        </div>
+                    </div>
+                    <ul class="ul2">
+                        <li>適性検査推奨環境</li>
+                        <li>受検メールの送信</li>
+                        <li>ＵＲＬの発行</li>
+                        <li>受検者のステータス</li>
+                        <li>検査実施項目</li>
+                    </ul>
+                </div>
+                <div class="content">
+                    <div class="subTitle paddingTop30">
+                        <div class="title">ダッシュボード機能
+                        </div>
+                    </div>
+                    <ul class="ul2">
+                        <li>実績データ分析機能</li>
+                        <li>運用サポート機能</li>
+                    </ul>
+                </div>
+                <div class="content">
+                    <div class="subTitle paddingTop30">
+                        <div class="title">契約について
+                        </div>
+                    </div>
+                    <ul class="ul2">
+                        <li>契約情報の確認</li>
+                        <li>解約の方法</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div>Copyright © 2022 SALES SCORE All Right Reserved. .</div>
+    </div>
+</body>
+
+</html>
